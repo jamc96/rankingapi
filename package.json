@@ -1,0 +1,19 @@
+{
+  "name": "rankingapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.24"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.4",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "start": "ts-node-dev --respawn src/index.ts"
+  }
+}
